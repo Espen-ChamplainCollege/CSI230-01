@@ -1,0 +1,1 @@
+﻿Get-ChildItem | Where-Object { $_.Name -ilike "*.ps1" } | Sort-Object CreationTime
